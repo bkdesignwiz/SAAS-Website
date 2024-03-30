@@ -105,14 +105,25 @@ img{
     align-items: center;
 }
 
-/* Testomonials */
+/* Testimonials */
 .testimonials {
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .testimonials .testimonials-heading {
     width: 700px;
     margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.testimonials .card p:nth-child(2) {
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 /* Utility Classes */
@@ -186,6 +197,7 @@ img{
     margin: 30px 0 20px;
 }
 
+
 .text-md {
     font-size: 1.2rem;
     line-height: 1.4;
@@ -224,3 +236,11 @@ img{
     background: #000;
     color: #fff;
 }
+
+/* Card */
+    .card {
+        background: #fff;
+        color: #000;
+        border-radius: 10px;
+        padding: 20px;
+    }

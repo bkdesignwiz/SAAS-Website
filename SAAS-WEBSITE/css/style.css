@@ -312,6 +312,7 @@ margin: 30px 0;
 .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
+    margin-right: 10px;
 
 }
     
@@ -469,6 +470,14 @@ margin: 30px 0;
     display: block;
     width: 100%;
 }
+
+.hero .hero-buttons .btn-primary {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+}
+
 
 .testimonials {
     max-width: 100%;
